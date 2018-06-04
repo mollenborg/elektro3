@@ -310,114 +310,11 @@ void cableBrain::loadCabledata()
 {
     cableR.clear();
     cableR.push_back("cu;1,5;12.1"); // materiel;crosssection;ohm/km
-    cableR.push_back("cu;2,5;7.41");
-    cableR.push_back("cu;4;4.61");
-    cableR.push_back("cu;6;3.08");
-    cableR.push_back("cu;10;1.83");
-    cableR.push_back("cu;16;1.15");
-    cableR.push_back("cu;25;0.727");
-    cableR.push_back("cu;35;0.525");
-    cableR.push_back("cu;50;0.388");
-    cableR.push_back("cu;70;0.269");
-    cableR.push_back("cu;95;0.194");
-    cableR.push_back("cu;120;0.155");
-    cableR.push_back("cu;185;0.1017");
-    cableR.push_back("cu;240;0.0787");
-    cableR.push_back("al;16;1.91");
-    cableR.push_back("al;25;1.2");
-    cableR.push_back("al;35;0.868");
-    cableR.push_back("al;50;0.641");
-    cableR.push_back("al;70;0.444");
-    cableR.push_back("al;95;0.321");
-    cableR.push_back("al;120;0.254");
-    cableR.push_back("al;150;0.207");
-    cableR.push_back("al;185;0.166");
-    cableR.push_back("al;240;0.127");
-    cableR.push_back("al;300;0.103");
+   
 
     cableX.clear();
     cableX.push_back("cu;1,5;3;0.103;0");
-    cableX.push_back("cu;1,5;4;0.110;0");
-    cableX.push_back("cu;1,5;5;0.113;0");
-    cableX.push_back("cu;2,5;3;0.095;0");
-    cableX.push_back("cu;2,5;4;0.102;0");
-    cableX.push_back("cu;2,5;5;0.105;0");
-    cableX.push_back("cu;2,5;3;0.095;1");
-    cableX.push_back("cu;4;3;0.089;0");
-    cableX.push_back("cu;4;4;0.096;0");
-    cableX.push_back("cu;4;5;0.099;0");
-    cableX.push_back("cu;4;3;0.089;1");
-    cableX.push_back("cu;6;3;0.087;0");
-    cableX.push_back("cu;6;4;0.094;0");
-    cableX.push_back("cu;6;5;0.097;0");
-    cableX.push_back("cu;6;3;0.087;1");
-    cableX.push_back("cu;10;3;0.082;0");
-    cableX.push_back("cu;10;4;0.089;0");
-    cableX.push_back("cu;10;5;0.092;0");
-    cableX.push_back("cu;10;3;0.082;1");
-    cableX.push_back("al;10;5;0.097;0");
-    cableX.push_back("cu;16;3;0.078;0");
-    cableX.push_back("cu;16;4;0.085;0");
-    cableX.push_back("cu;16;5;0.088;0");
-    cableX.push_back("cu;16;3;0,078;1");
-    cableX.push_back("al;16;4;0.089;0");
-    cableX.push_back("al;16;5;0.092;0");
-
-    cableX.push_back("cu;25;3;0.079;0");
-    cableX.push_back("cu;25;4;0.086;0");
-    cableX.push_back("cu;25;5;0.089;0");
-    cableX.push_back("cu;25;3;0.077;1");
-
-    cableX.push_back("cu;25;3;0.077;1"); // materiel;crosssection;number of conducters;ohm/km;concentrical(bool)
-    cableX.push_back("al;25;4;0.084;0");
-    cableX.push_back("al;25;5;0.087;0");
-    cableX.push_back("cu;35;3;0.074;0");
-    cableX.push_back("cu;35;4;0.082;0");
-    cableX.push_back("cu;35;5;0.085;0");
-    cableX.push_back("cu;35;3;0.070;0");
-    cableX.push_back("cu;50;4;0.084;0");
-    cableX.push_back("cu;50;3;0.074;1");
-    cableX.push_back("cu;50;4;0.080;1");
-    cableX.push_back("al;50;3;0.074;1");
-    cableX.push_back("al;50;4;0.080;1");
-    cableX.push_back("al;50;4;0.081;0");
-    cableX.push_back("cu;70;4;0.081;0");
-    cableX.push_back("cu;70;3;0.073;1");
-    cableX.push_back("cu;70;4;0.079;1");
-    cableX.push_back("al;70;3;0.073;1");
-    cableX.push_back("al;70;4;0.079;1");
-    cableX.push_back("al;70;4;0.080;0");
-    cableX.push_back("cu;95;4;0.082;0");
-    cableX.push_back("cu;95;3;0.071;1");
-    cableX.push_back("cu;95;4;0.077;1");
-    cableX.push_back("al;95;3;0.071;1");
-    cableX.push_back("al;95;4;0.077;1");
-    cableX.push_back("al;95;4;0.078;0");
-    cableX.push_back("cu;120;4;0.082;0");
-    cableX.push_back("cu;120;3;0.070;1");
-    cableX.push_back("cu;120;4;0.077;1");
-    cableX.push_back("al;120;3;0.070;1");
-    cableX.push_back("al;120;4;0.077;1");
-    cableX.push_back("al;120;4;0.077;0");
-    cableX.push_back("cu;150;4;0.084;0");
-    cableX.push_back("cu;150;3;0.071;1");
-    cableX.push_back("cu;150;4;0.077;1");
-    cableX.push_back("al;150;3;0.071;1");
-    cableX.push_back("al;150;4;0.077;1");
-    cableX.push_back("al;150;4;0.078;0");
-    cableX.push_back("cu;185;4;0.082;0");
-    cableX.push_back("cu;185;3;0.071;1");
-    cableX.push_back("cu;185;4;0.077;1");
-    cableX.push_back("al;185;3;0.071;1");
-    cableX.push_back("al;185;4;0.077;1");
-    cableX.push_back("al;185;4;0.078;0");
-    cableX.push_back("cu;240;4;0.083;0");
-    cableX.push_back("cu;240;3;0.070;1");
-    cableX.push_back("cu;240;4;0.077;1");
-    cableX.push_back("al;240;3;0.070;1");
-    cableX.push_back("al;240;4;0.077;1");
-    cableX.push_back("al;240;4;0.077;0");
-    cableX.push_back("al;300;4;0.077;0");
+ 
 
 
 
