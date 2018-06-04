@@ -2,6 +2,6 @@
  All rights reserved, see license.txt for details.
 
  
-This software is use to calculate electrical installation according to DS/HD/IEC 60364
+This software is used to calculate electrical installations according to DS/HD/IEC 60364
 
-At the momont the software is in development.
+At the moment the software is in development.
